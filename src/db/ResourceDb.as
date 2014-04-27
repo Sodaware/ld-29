@@ -19,9 +19,13 @@ package db
 		
 		// Objects
 		[Embed(source = "../../assets/objects/player.png")] public static var gfx_Player:Class;
-		[Embed(source = "../../assets/objects/submarine.png")] public static var gfx_Submarine:Class;
-		
+		[Embed(source = "../../assets/objects/submarine-left.png")] public static var gfx_SubmarineLeft:Class;
+		[Embed(source = "../../assets/objects/submarine-right.png")] public static var gfx_SubmarineRight:Class;
 		[Embed(source = "../../assets/objects/depth-charge.png")] public static var gfx_DepthCharge:Class;
+		[Embed(source = "../../assets/objects/fish.png")] public static var gfx_Fish:Class;
+		
+		// Particles
+		[Embed(source = "../../assets/particles/explosion-small.png")] public static var gfx_ExplosionSmall:Class;
 		
 	}
 	
