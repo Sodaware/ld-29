@@ -20,7 +20,7 @@ package screens
 		private var _fireworks:FlxEmitter;
 		
 		private var _parent:PlayScreenState;
-		private var _timer:int = 600;
+		private var _timer:int = 300;
 		
 		
 		// ----------------------------------------------------------------------
@@ -36,6 +36,8 @@ package screens
 			
 			// Make some fireworks
 			if (Math.random() > 0.995) {
+				
+				FlxG.play(ResourceDb.snd_Fireworks[Math.floor(Math.random() * ResourceDb.snd_Fireworks.length)]);
 				
 				this._fireworks.x = (FlxG.width * Math.random());
 				this._fireworks.y = (32 * Math.random());

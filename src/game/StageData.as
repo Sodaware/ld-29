@@ -72,6 +72,11 @@ package game
 			return _speedMultiplier;
 		}
 		
+		public function get mineFrequency():int 
+		{
+			return this._mineFrequency;
+		}
+		
 		public function get totalAnimals():int 
 		{
 			return _totalAnimals;
